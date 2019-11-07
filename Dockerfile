@@ -10,4 +10,4 @@ COPY src/ .
 EXPOSE 5672
 EXPOSE 5050
 
-CMD [ "python", "publishers/access_logs.py" ]
+CMD [ "python", "publishers/access_logs.py"]
